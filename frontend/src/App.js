@@ -35,6 +35,7 @@ function App() {
 
   return (
     <>
+      <h1>MongoDB Implement</h1>
       <label><h2>Write something in the input field, if it shows up below it means that frontend, backend and the database is now connected.</h2></label>
       <input onChange={(e) => setInputValue(e.target.value)}/>
       <button onClick={sendInputValue}>Send</button>
